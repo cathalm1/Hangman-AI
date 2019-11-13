@@ -92,7 +92,7 @@ public class HangmanAI {
 
     public String[] getDictionary() {
         FileIO reader = new FileIO();
-        return reader.load("/Users/cathalmcgannon/Documents/HangmanAI/src/hangman/dictionary.txt");
+        return reader.load("/Users/thisuser/Documents/HangmanAI/src/hangman/dictionary.txt");
     }
 
     public void keepCorrectWordsByArray(String[] word) {
